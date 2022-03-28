@@ -1,0 +1,107 @@
+.menu {
+	overflow: hidden;
+	background-color: antiquewhite;
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+.menu a {
+	float: left;
+	display: block;
+	color: darkslategrey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.menu a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.header {
+	position: -webkit-sticky;
+	/*Safari*/
+	position: sticky;
+	top: 5%;
+	background-color: cadetblue;
+	border: 2px solid #4CAF50;
+	text-align: center;
+	font-family: "Garamond";
+	color: white;
+	font-size: 21px;
+
+}
+
+.explanation {
+	background-color: antiquewhite;
+	text-align: center;
+	font-family: "Garamond";
+	color: darkslategrey;
+	font-size: 18px;
+	padding-top: 1%;
+}
+
+.title {
+	text-align: center;
+	font-family: "Garamond";
+	color: #0c1a13;
+	font-size: 25px;
+	padding-top: 1%;
+}
+
+.tip1 {
+	font-family: "Garamond";
+	color: #0c1a13;
+	font-size: 21px;
+	padding-top: 1%;
+	float: none;
+}
+
+
+.tip2 {
+	font-family: "Garamond";
+	color: #0c1a13;
+	font-size: 21px;
+	padding-top: 1%;
+	float: none;
+}
+
+
+.tip3 {
+	font-family: "Garamond";
+	color: #0c1a13;
+	font-size: 21px;
+	padding-top: 1%;
+	float: none;
+}
+
+
+.tip4 {
+	font-family: "Garamond";
+	color: #0c1a13;
+	font-size: 21px;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	float: none;
+}
+
+/*Email Link*/
+.footer {
+	position: fixed;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: floralwhite;
+	padding: 1%;
+}
+
+/*image*/
+.img{
+	max-width: 25%;
+	max-height: 25%;
+	
+}
